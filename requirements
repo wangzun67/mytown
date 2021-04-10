@@ -1,0 +1,4 @@
+django
+uwsgi
+markdown
+django-debug-toolbar

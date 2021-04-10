@@ -1,0 +1,10 @@
+.*.swp
+.*.swo
+*.pyc
+.DS_Store
+
+.ropeproject
+
+db.sqlite3
+
+log

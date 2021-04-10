@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul class="list-group mt-3">
+	{% for article in articles %}
+	<a href="/article/{{article.id}}" class="list-group-item text-center">{{article.title}}</a>
+	{% endfor %}
+</ul>
+{% endblock %}
